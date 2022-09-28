@@ -1,0 +1,29 @@
+{
+  "name": "fullstack-goals",
+  "version": "1.0.0",
+  "description": "Goalsetter app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariusKa1/fullstack-goals.git"
+  },
+  "author": "Darius Kairys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DariusKa1/fullstack-goals/issues"
+  },
+  "homepage": "https://github.com/DariusKa1/fullstack-goals#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
